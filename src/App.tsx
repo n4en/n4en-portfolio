@@ -4,6 +4,7 @@ import Navigation from './components/Navigation'
 import Main from './components/Main'
 import Expertise from './components/Expertise'
 import Footer from './components/Footer'
+import Skills from './components/Skills'
 
 import FadeIn from './components/FadeIn'
 import './assets/styles/Index.scss'
@@ -33,6 +34,7 @@ function App() {
       <FadeIn transitionDuration={700}>
         <Main />
         <Expertise/>
+        <Skills/>
         <Footer/>
       </FadeIn>
     </div>
